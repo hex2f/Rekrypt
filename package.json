@@ -1,6 +1,6 @@
 {
   "name": "rekrypt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "I'm not an encryption expert. Don't use this for anything for release. It's just for fun :)",
   "main": "index.js",
   "scripts": {
