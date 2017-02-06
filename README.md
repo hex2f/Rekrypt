@@ -5,7 +5,7 @@
 
 Installation
 ---------------------
-***
+
 ###NPM:
 ```
 npm i rekrypt --save
@@ -13,7 +13,7 @@ npm i rekrypt --save
 
 Documentation
 ---------------------
-***
+
 ###Basic Usage
 ```
 //Import Rekrypt
