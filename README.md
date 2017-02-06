@@ -38,12 +38,15 @@ console.log(`Decrypted String: ${decrypted}`);
 
 ```javascript
 encrypt( "String To Encrypt", "Optional Key", Optional Timestamp );
+Returns ["Encrypted String", "Encryption Key Used", Timestamp]
 ```
 
 ```javascript
 decrypt( "String To Decrypt", "Encryption Key", Optional Timestamp );
+Returns "Decrypted String"
 ```
 
 ```javascript
 makekey( length );
+Returns "Base64 String"
 ```
