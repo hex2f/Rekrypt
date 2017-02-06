@@ -1,4 +1,5 @@
-function makeid(len) {
+// V V V Credit to http://stackoverflow.com/a/1349426. Got a bit too lazy :) V V V //
+function makekey(len) {
     var text = "";
     var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
@@ -9,7 +10,7 @@ function makeid(len) {
 }
 
 function encrypt(string, b64, time) {
-  if(b64 == null) { this.b64 = makeid(string.length) } else { this.b64 = b64 }
+  if(b64 == null) { this.b64 = makekey(string.length) } else { this.b64 = b64 }
   if(time== null) { this.time= new Date(0, 0, 0, 0, 0, 0, 0) } else { this.time = time }
 
   this.s = '';
@@ -43,4 +44,4 @@ function decrypt(string, b64, time) {
   return this.s;
 }
 
-module.exports = {makeid, encrypt, decrypt}
+module.exports = {makekey, encrypt, decrypt}

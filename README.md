@@ -1,6 +1,4 @@
-#Rekrypt
-
-####Text obfuscation made simple.
+![Banner Image](http://i.imgur.com/okQTt6q.png)
 
 
 Installation
@@ -15,7 +13,7 @@ Documentation
 ---------------------
 
 ###Basic Usage
-```
+```javascript
 //Import Rekrypt
 const rekrypt = require('rekrypt');
 
@@ -34,4 +32,18 @@ var decrypted = rekrypt.decrypt(encrypted[0],encrypted[1]);
 
 console.log(`Encrypted Array: ${encrypted}`);
 console.log(`Decrypted String: ${decrypted}`);
+```
+
+###Syntax
+
+```javascript
+encrypt( "String To Encrypt", "Optional Key", Optional Timestamp );
+```
+
+```javascript
+decrypt( "String To Decrypt", "Encryption Key", Optional Timestamp );
+```
+
+```javascript
+makekey( length );
 ```
