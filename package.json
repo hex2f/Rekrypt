@@ -1,0 +1,22 @@
+{
+  "name": "rekrypt",
+  "version": "1.0.0",
+  "description": "I'm not an encryption expert. Don't use this for anything for release. It's just for fun :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RekkyRek/RekCrypt.git"
+  },
+  "keywords": [
+    "Encryption"
+  ],
+  "author": "RekkyRek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RekkyRek/RekCrypt/issues"
+  },
+  "homepage": "https://github.com/RekkyRek/RekCrypt#readme"
+}
